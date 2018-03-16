@@ -58,6 +58,24 @@ void MainScreen::Update(double timeTotal, double timeDelta, std::vector<IA>* inp
 					selector++;
 					uis->at(selector).selected = true;
 				}
+				
+			}
+			else if (input.key == (VK_RETURN || VK_SPACE)) {
+				switch (selector) {
+				case 0:
+
+					break;
+
+				case 1:
+
+					break;
+
+				case 2:
+					Unload();
+					//find the correct way to exit the application (return to main)
+					break;
+
+				}
 			}
 			break;
 

@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="FirstStage.h" />
     <ClInclude Include="Game1.h" />
     <ClInclude Include="Graphics.h" />
     <ClInclude Include="MainScreen.h" />
@@ -159,6 +160,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="FirstStage.cpp" />
     <ClCompile Include="Game1.cpp" />
     <ClCompile Include="Graphics.cpp" />
     <ClCompile Include="MainScreen.cpp" />
